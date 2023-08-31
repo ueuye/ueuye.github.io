@@ -323,12 +323,157 @@
 				<div class="row animate-box">
 					<!--바로가기 링크-->
 					<div class="flex2" >
-						<a class="btn btn-primary btn-outline btn-lg" href="#p1">파이널프로젝트</a>
+						<a class="btn btn-primary btn-outline btn-lg" href="#p1">전자결재시스템</a>
 						<a class="btn btn-primary btn-outline btn-lg" href="#p2">가계부</a>
 						<a class="btn btn-primary btn-outline btn-lg" href="#p3">쇼핑몰</a>
 					</div>
 				
 					<div>
+						<!-- 전자결재시스템 -->
+						<div class="item">
+							<div class="col-md-12">
+								<div class="article" id="p3">
+									<a href="#" target="_blank" class="blog-img">
+										<img class="img-responsive" src="#">
+										<div class="overlay"></div>
+										<div class="link">
+											<span class="read">Go to Project</span>
+										</div>
+									</a>
+									<div class="desc">
+										<div class="flex">
+											<div>
+												<span class="meta">2차 팀프로젝트</span>
+												<h3 style="font-size: 35px; font-family:'Pretendard-SemiBold';">
+													전자결재시스템
+													<span>2023-08-10 ~ 진행중</span>
+												</h3>
+											</div>
+											<div style="text-align: end;">
+												<a href="http://43.202.102.1/cakecraft/login" target="_blank" class="btn btn-primary">AWS</a>
+												<a href="https://github.com/Booyo-Vo/Cake_Craft" target="_blank" class="btn btn-primary">Github</a>
+												<a href="./images/cakecraft_erd.png" target="_blank" class="btn btn-primary">ERD</a>
+											</div>
+										</div>
+										
+										<div>
+											<table class="table">
+												<tr>
+													<th class="w-50">프로젝트 개요</th>
+													<th>개발내용</th>
+												</tr>
+												<tr>
+													<td>
+														제목 : 전자결재시스템:그룹웨어(Spring/MVC)<br>
+														기간 : 2023-08-10 ~ 진행중<br>
+														인원 : 5명<br>
+													</td>
+													<td>
+														- Spring/MVC 방식을 사용하여 전자결재시스템 그룹웨어 구현 <br>
+														- 로그인, 아이디 저장, 출퇴근 기능 구현 <br> 
+														- 사원 관리, 사원부서별 기능 구분 <br>
+														- 일정 관리, 시설비품예약 관리 <br>
+														- 공지사항, 익명게시판, 문의사항 기능 구현<br>
+														- 기안작성, 기안조회(수신기안, 참조된기안, 작성기안) 기능 구현 <br>
+														- 대시보드(차트) 출력 <br>
+													</td>
+												</tr>
+												<tr>
+													<th colspan="2">담당기능</th>
+												</tr>
+												<tr>
+													<td colspan="2">
+														<ol>
+															<li><span class="b-title">일정 관리</span>
+																<ul>
+																	<li><span class="s-title">달 력</span>
+																		<div>- Java 기본 API의 Calendar Class 사용하여 달력을 구현하여 가계부를 구성하였습니다.</div>
+																		<div>- 전사 일정, 팀 일정, 개인 일정을 로그인한 사원의 정보에 맞춰 날짜에 따라 캘린더에 출력하였습니다.</div>
+																	</li>
+																	<li><span class="s-title">특일 정보 API</span>
+																		<div>- 특일 정보 API를 이용하여 공휴일 정보를 가져와서 출력하도록 구현했습니다.</div>
+																	</li>
+																	<li><span class="s-title">모 달</span>
+																		<div>- 일정 추가, 수정, 삭제 기능을 모달창을 띄어 구현했습니다.</div>
+																	</li>
+ 																</ul>
+															</li>
+															<li><span class="b-title">관리자와 사원을 구분</span>
+																<ul>
+																	<li><span class="s-title">관리자와 일반 사원을 구분하여 할 수 있는 기능을 구분하도록 구현했습니다.</span>
+																	</li>
+ 																</ul>
+															</li>
+															<li><span class="b-title">게시판</span>
+																<ul>
+																	<li><span class="s-title">jqGrid를 활용하여 테이블을 구현</span>
+																		<div>- 모든 게시판에서 목록을 출력하고, 정렬과 페이징 기능을 구현했습니다.</div>
+																	</li>
+																	<li><span class="s-title">검색기능</span>
+																		<div>- 작성자, 제목, 내용 일부의 검색어를 통한 필터 기능을 구현했습니다. </div>
+																	</li>
+																	<li><span class="s-title">입력폼 유효성 검사</span>
+																		<div>- javascript를 활용하여 입력폼 유효성 검사 기능을 구현했습니다. </div>
+																	</li>
+																	<li><span class="s-title">좋아요</span>
+																		<div>- ajax를 활용하여 [좋아요] 버튼 클릭 시 비동기식으로 좋아요 수를 +1, [좋아요 취소] 버튼 클릭 시 좋아요 수를 -1 하는 기능을 구현했습니다. </div>
+																		<div>- javascript를 활용하여 [좋아요]버튼 클릭시 [좋아요]버튼을 숨기고 [좋아요취소]버튼을 노출하는 기능을 구현했습니다. </div>
+																		<div>- javascript를 활용하여 [좋아요취소]버튼 클릭시 [좋아요취소]버튼을 숨기고 [좋아요]버튼을 노출하는 기능을 구현했습니다. </div>
+																	</li>
+																	<li>
+																		<span class="s-title">댓 글</span>
+																		<div>- 게시글마다 댓글을 달 수 있으며, 댓글 작성자만 댓글을 수정, 삭제할 수 있도록 기능을 구현했습니다. </div>
+																		<div>- 댓글 수정 버튼 클릭 시, javascript를 활용하여 댓글이 사라지고 수정폼이 노출되도록 구현했습니다.</div>
+																	</li>
+																	<li>
+																		<span class="s-title">첨부파일</span>
+																		<div>- 여러 가지 확장자의 첨부파일을 한 번에 여러 개 업로드할 수 있도록 기능을 구현했습니다. </div>
+																		<div>- 이미지를 업로드하였을 시, 게시글 상세 보기에서 이미지를 출력하도록 구현했습니다.</div>
+																		<div>- 이미지가 아닌 파일을 업로드하였을 시, 다운로드할 수 있도록 기능을 구현했습니다. </div>
+																	</li>
+																	<li><span class="s-title">비밀글</span>
+																		<div>- 문의사항에서 비밀글일시 작성자와 관리자만 열람할 수 있도록 구현했습니다. </div>
+																	</li>
+																	<li>
+																		<span class="s-title">문의 답변</span>
+																		<div>- 문의사항에 답변이 없으면 입력폼이 출력되고, 답변이 있으면 답변이 출력되도록 구현했습니다. </div>
+																		<div>- 답변 수정 버튼 클릭 시, javascript를 활용하여 답변이 사라지고 수정폼이 노출되도록 구현했습니다. </div>
+																	</li>
+																</ul>
+															</li>
+															<li><span class="b-title">공통 코드</span>
+																<ul>
+																	<li><span class="s-title">공통 코드 테이블 구현</span>
+																		<div>- DB에서 일정, 부서, 팀, 결재, 시설 비품, 직급을 각각 테이블로 만들지 않고 공통 코드를 만들어 테이블을 하나만 생성했습니다.</div>
+																	</li>
+																	<li><span class="s-title">공통 코드 API</span>
+																		<div>- 공통 코드를 받아서 이름을 반환하는 메서드와 이름을 받아서 코드를 반환하는 메서드를 생성하여 사용하였습니다.</div>
+																	</li>
+ 																</ul>
+															</li>
+														</ol>
+													</td>
+												</tr>
+												<tr>
+													<th colspan="2">개발환경</th>
+												</tr>
+												<tr>
+													<td colspan="2">
+														<span>Language</span> HTML5, CSS3, Java, SQL, JavaScript, Ajax<br>
+														<span>Library</span> BootStrap, jQuery,JSTL<br>
+														<span>Database</span> MariaDB<br>
+														<span>WAS</span> Apache Tomcat9<br>
+														<span>OS</span> MacOS<br>
+														<span>TOOL</span> SPRING-TOOL-SUITE4, sequelAce
+													</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
 						<!--가계부-->
 						<div class="item">
 							<div class="col-md-12">
@@ -454,7 +599,7 @@
 														<span>Database</span> MariaDB<br>
 														<span>WAS</span> Apache Tomcat9<br>
 														<span>OS</span> MacOS<br>
-														<span>TOOL</span> Eclipse IDE, HeidiSQL
+														<span>TOOL</span> Eclipse IDE, sequelAce
 													</td>
 												</tr>
 											</table>
@@ -581,7 +726,7 @@
 														<span>Database</span> MariaDB<br>
 														<span>WAS</span> Apache Tomcat9<br>
 														<span>OS</span> MacOS<br>
-														<span>TOOL</span> Eclipse IDE, HeidiSQL
+														<span>TOOL</span> Eclipse IDE, HeidiSQL, sequelAce
 													</td>
 												</tr>
 											</table>
